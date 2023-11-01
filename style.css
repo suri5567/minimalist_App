@@ -1,0 +1,277 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	/* display: flex; */
+	/* flex-direction: column; */
+	width: 100%;
+	height: 100%;
+	background: #FFF;
+
+}
+
+.box1 {
+	width: 100%;
+	height: 527px;
+	/* flex-shrink: 0; */
+	background: linear-gradient(90deg, #D3501C 8.67%, rgba(211, 80, 28, 0.35) 43.99%, rgba(211, 80, 28, 0.00) 71.44%);
+	mix-blend-mode: multiply;
+	background: url("https://s3-alpha-sig.figma.com/img/22f6/b7b5/b47561aa2ad560235e2702e286a6d4b7?Expires=1699833600&Signature=YIRwvzOorIjbBDU0gTrJ5rl6HjpyOWER9AvQov-CKEDaMy9ohxU4tk7o07KGj~lWOXkbUvX1tiXtQy8p0Luw~IeDgfe-gldklxeQ51TGbpWOgsyxlkwb1IlBpbBnFdGDLxj1~IT8bs6xg~tvTFkC-PIyItUqIXzCJsuuYHjZPgWvhzoUvv900MatJAdds-WZznWxao0vpm9vAK5ipVfRlUWiSaos~swJS0zpzhG5-eTlrk3KE~R4iBvGRaMqAfR-52XX15KxFj~t0DQWwgyR3PdfOZfYWuxbLqiygq-I7MUF0NHbKLob4S8xuGIfgLzgST9pZdeGar1laYiqaPhf1g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"), lightgray 50% / cover no-repeat;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.outerDiv {
+	display: flex;
+	width: 100%;
+	height: 72px;
+	/* padding: 12px 1204px 12.771px 120px; */
+	align-items: center;
+	/* flex-shrink: 0; */
+	border-bottom: 1px solid rgba(255, 119, 119, 0.40);
+	background: rgba(28, 28, 28, 0.20);
+	backdrop-filter: blur(2px);
+}
+
+.firefly {
+	margin-top: 12px;
+}
+
+.para1 {
+	margin-left: 120px;
+	color: #FFF;
+	font-family: Roboto;
+	font-size: 44px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 56px;
+	width: 574px;
+	height: 112px;
+	margin-top: 183.77px;
+
+}
+
+.btn1 {
+
+	color: #FE0000;
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 36px;
+	margin-left: 120px;
+	margin-top: 46px;
+	display: flex;
+	width: 211px;
+	height: 52px;
+	justify-content: center;
+	align-items: center;
+	gap: 4px;
+	flex-shrink: 0;
+
+}
+
+
+.box2 {
+    /* width: 1440px; */
+    height: 291px;
+}
+
+
+.aboutBox {
+	margin-top: 35px;
+	width: 100%;
+	color: #000;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 32px;
+}
+
+.about {
+	color: #F27121;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 44px;
+}
+
+.pb {
+	color: #000;
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 40px;
+}
+
+.box3 {
+	width: 100%;
+	height: 717px;
+	background: #FFF;
+}
+
+.box3>p {
+	text-align: center;
+}
+
+.mainDiv {
+	display: flex;
+	justify-content: center;
+
+}
+
+.outerSubDiv {
+	display: flex;
+	/* align-items: center; */
+	justify-content: center;
+	gap: 40px;
+	/* width: 1200px; */
+	height: 700px;
+	height: 594px;
+	padding: 15px 15px 15px 15px;
+}
+
+.image1 {
+	background: url("https://s3-alpha-sig.figma.com/img/22f6/b7b5/b47561aa2ad560235e2702e286a6d4b7?Expires=1699833600&Signature=YIRwvzOorIjbBDU0gTrJ5rl6HjpyOWER9AvQov-CKEDaMy9ohxU4tk7o07KGj~lWOXkbUvX1tiXtQy8p0Luw~IeDgfe-gldklxeQ51TGbpWOgsyxlkwb1IlBpbBnFdGDLxj1~IT8bs6xg~tvTFkC-PIyItUqIXzCJsuuYHjZPgWvhzoUvv900MatJAdds-WZznWxao0vpm9vAK5ipVfRlUWiSaos~swJS0zpzhG5-eTlrk3KE~R4iBvGRaMqAfR-52XX15KxFj~t0DQWwgyR3PdfOZfYWuxbLqiygq-I7MUF0NHbKLob4S8xuGIfgLzgST9pZdeGar1laYiqaPhf1g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"), lightgray 50% / cover no-repeat;
+	width: 100%;
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.image2 {
+	background: url("https://s3-alpha-sig.figma.com/img/22f6/b7b5/b47561aa2ad560235e2702e286a6d4b7?Expires=1699833600&Signature=YIRwvzOorIjbBDU0gTrJ5rl6HjpyOWER9AvQov-CKEDaMy9ohxU4tk7o07KGj~lWOXkbUvX1tiXtQy8p0Luw~IeDgfe-gldklxeQ51TGbpWOgsyxlkwb1IlBpbBnFdGDLxj1~IT8bs6xg~tvTFkC-PIyItUqIXzCJsuuYHjZPgWvhzoUvv900MatJAdds-WZznWxao0vpm9vAK5ipVfRlUWiSaos~swJS0zpzhG5-eTlrk3KE~R4iBvGRaMqAfR-52XX15KxFj~t0DQWwgyR3PdfOZfYWuxbLqiygq-I7MUF0NHbKLob4S8xuGIfgLzgST9pZdeGar1laYiqaPhf1g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"), lightgray 50% / cover no-repeat;
+	width: 100%;
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+}
+
+.OuterSubDiv1 {
+	width: 50%;
+	height: 593px;
+	border: 1px solid #dfbebe;
+	padding: 15px 15px 15px 15px;
+}
+
+.sunHeading1 {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+	align-items: center;
+}
+
+.btbb {
+	display: flex;
+	width: 211px;
+	height: 52px;
+	justify-content: center;
+	align-items: center;
+	gap: 4px;
+	flex-shrink: 0;
+	background: #FE0000;
+	color: #FFF;
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 36px;
+	border: none;
+	/* 225% */
+}
+
+.sunHeading1>p {
+	color: #000;
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 28px;
+}
+
+.sunHeading2>p {
+	color: #000;
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 28px;
+}
+
+
+.sunHeading2 {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+	align-items: center;
+}
+
+.sunHeading2>p {
+	display: flex;
+	justify-content: space-between;
+}
+
+.box4 {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+	flex-shrink: 0;
+	background-color: #25A769;
+	background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="104" viewBox="0 0 1440 104" fill="none"><path d="M1440 1.71838e-05L-1 0L-1 104L1440 104L1440 1.71838e-05Z" fill="none"/></svg>');
+	background-size: cover;
+}
+
+.midFooter p {
+	margin-top: 9px;
+}
+
+.imagesInfo {
+	margin-top: 13px;
+}
+
+.imagesInfo img {
+	margin-left: 20px;
+}
+
+.midFooter p {
+	margin-top: 13px;
+	text-align: center;
+	color: #ECE14C;
+	font-family: Neue Metana;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.bar1 {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+	margin-top:30px;
+	margin-top:30px;
+}
+
+.bar1 svg{
+	 color:#F8CA95;
+	 width: 30.966px;
+	 height: 13.394px;
+}
+.svgs{
+	display: flex;
+	background-color: #F27121;
+}
