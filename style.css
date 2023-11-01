@@ -5,32 +5,30 @@
 }
 
 .container {
-	/* display: flex; */
-	/* flex-direction: column; */
-	width: 100%;
+	position: relative;
 	height: 100%;
 	background: #FFF;
+
 
 }
 
 .box1 {
 	width: 100%;
 	height: 527px;
-	/* flex-shrink: 0; */
 	background: linear-gradient(90deg, #D3501C 8.67%, rgba(211, 80, 28, 0.35) 43.99%, rgba(211, 80, 28, 0.00) 71.44%);
 	mix-blend-mode: multiply;
 	background: url("https://s3-alpha-sig.figma.com/img/22f6/b7b5/b47561aa2ad560235e2702e286a6d4b7?Expires=1699833600&Signature=YIRwvzOorIjbBDU0gTrJ5rl6HjpyOWER9AvQov-CKEDaMy9ohxU4tk7o07KGj~lWOXkbUvX1tiXtQy8p0Luw~IeDgfe-gldklxeQ51TGbpWOgsyxlkwb1IlBpbBnFdGDLxj1~IT8bs6xg~tvTFkC-PIyItUqIXzCJsuuYHjZPgWvhzoUvv900MatJAdds-WZznWxao0vpm9vAK5ipVfRlUWiSaos~swJS0zpzhG5-eTlrk3KE~R4iBvGRaMqAfR-52XX15KxFj~t0DQWwgyR3PdfOZfYWuxbLqiygq-I7MUF0NHbKLob4S8xuGIfgLzgST9pZdeGar1laYiqaPhf1g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"), lightgray 50% / cover no-repeat;
 	background-repeat: no-repeat;
-    background-size: cover;
+	background-size: cover;
 }
 
 .outerDiv {
 	display: flex;
 	width: 100%;
 	height: 72px;
-	/* padding: 12px 1204px 12.771px 120px; */
+	padding: 12px 1204px 12.771px 120px;
 	align-items: center;
-	/* flex-shrink: 0; */
+	flex-shrink: 0;
 	border-bottom: 1px solid rgba(255, 119, 119, 0.40);
 	background: rgba(28, 28, 28, 0.20);
 	backdrop-filter: blur(2px);
@@ -44,7 +42,7 @@
 	margin-left: 120px;
 	color: #FFF;
 	font-family: Roboto;
-	font-size: 44px;
+	font-size: 40px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: 56px;
@@ -55,10 +53,8 @@
 }
 
 .btn1 {
-
-	color: #FE0000;
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 15px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: 36px;
@@ -71,19 +67,18 @@
 	align-items: center;
 	gap: 4px;
 	flex-shrink: 0;
-
 }
 
 
 .box2 {
-    /* width: 1440px; */
-    height: 291px;
+	height: 291px;
 }
 
 
 .aboutBox {
 	margin-top: 35px;
-	width: 100%;
+	margin-left: 378px;
+	width: 800px;
 	color: #000;
 	text-align: center;
 	font-family: Roboto;
@@ -130,10 +125,9 @@
 
 .outerSubDiv {
 	display: flex;
-	/* align-items: center; */
 	justify-content: center;
-	gap: 40px;
-	/* width: 1200px; */
+	gap: 20px;
+	width: 1374px;
 	height: 700px;
 	height: 594px;
 	padding: 15px 15px 15px 15px;
@@ -226,12 +220,14 @@
 .box4 {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	width: 100%;
 	height: 100%;
 	flex-shrink: 0;
 	background-color: #25A769;
 	background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="104" viewBox="0 0 1440 104" fill="none"><path d="M1440 1.71838e-05L-1 0L-1 104L1440 104L1440 1.71838e-05Z" fill="none"/></svg>');
 	background-size: cover;
+	border: 5px solid #ECE14C;
 }
 
 .midFooter p {
@@ -262,16 +258,98 @@
 	justify-content: space-evenly;
 	align-items: center;
 	width: 100%;
-	margin-top:30px;
-	margin-top:30px;
+	margin-top: 30px;
+	margin-top: 30px;
 }
 
-.bar1 svg{
-	 color:#F8CA95;
-	 width: 30.966px;
-	 height: 13.394px;
+.bar1 svg {
+	color: #F8CA95;
+	width: 30.966px;
+	height: 13.394px;
 }
-.svgs{
+
+.svgs {
 	display: flex;
 	background-color: #F27121;
+}
+
+
+.popupBoxMain {
+	position: absolute;
+	top: 53%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	width: 1255px;
+	border: 1px solid lightblue;
+	height: 590px;
+	flex-shrink: 0;
+	background: #FFF;
+	display: none;
+	box-shadow: 2px 6px 3px lightblue;
+}
+
+.popUpContainer {
+	display: flex;
+	flex-direction: column;
+	height: 547px;
+	width: 50%;
+}
+
+.popUpContainer>img {
+	width: 100%;
+	height: 449px;
+	padding: 15px 15px 15px 15px;
+}
+
+
+.products {
+	height: 50px;
+	width: 50px;
+	background-color: red;
+}
+
+.details {
+	height: 547px;
+	width: 40%;
+}
+
+.list {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	justify-content: space-around;
+	gap: 5px;
+}
+
+.list img {
+	width: 122px;
+	height: 50px;
+}
+
+.description {
+	padding: 14px 15px 26px 14px;
+	display: flex;
+	flex-direction: column;
+	gap: 45px;
+}
+
+.description>p {
+	font-weight: bold;
+	font-size: 25px;
+}
+
+button {
+	color: white;
+	display: flex;
+	width: 353px;
+	height: 60px;
+	justify-content: center;
+	align-items: center;
+	gap: 4px;
+	background: #FE0000;
+	border: none;
+	font-size: 21px;
+
 }
